@@ -1,6 +1,7 @@
 # scrapMetal3D
 
 3D-scanned scrap metal samples (binary STL) for shape/material classification work.
+All meshes are watertight exports.
 
 ## Structure
 
@@ -10,32 +11,33 @@ Bra/  Brass samples     (Bra_1 - Bra_6)
 Cop/  Copper samples    (Cop_2 - Cop_6)
 ```
 
-17 meshes, 1,803,598 triangles, 86.0 MB total. All files are binary STL.
+17 meshes, 10,007,198 triangles, 477.2 MiB total. All files are binary STL, units in millimetres.
 
 ## Files
 
-| File | Material | Triangles | Size (MB) |
-|------|----------|-----------|-----------|
+| File | Material | Triangles | Size (MiB) |
+|------|----------|-----------|------------|
 | `Al/Al_1.stl` | Aluminium | 47,490 | 2.26 |
-| `Al/Al_2.stl` | Aluminium | 123,559 | 5.89 |
-| `Al/Al_3.stl` | Aluminium | 88,127 | 4.20 |
-| `Al/Al_4.stl` | Aluminium | 57,403 | 2.74 |
-| `Al/Al_5.stl` | Aluminium | 57,127 | 2.72 |
-| `Al/Al_6.stl` | Aluminium | 75,829 | 3.62 |
-| `Bra/Bra_1.stl` | Brass | 114,715 | 5.47 |
-| `Bra/Bra_2.stl` | Brass | 72,717 | 3.47 |
-| `Bra/Bra_3.stl` | Brass | 153,638 | 7.33 |
-| `Bra/Bra_4.stl` | Brass | 153,992 | 7.34 |
-| `Bra/Bra_5.stl` | Brass | 206,783 | 9.86 |
-| `Bra/Bra_6.stl` | Brass | 85,337 | 4.07 |
-| `Cop/Cop_2.stl` | Copper | 250,010 | 11.92 |
-| `Cop/Cop_3.stl` | Copper | 119,353 | 5.69 |
-| `Cop/Cop_4.stl` | Copper | 57,290 | 2.73 |
-| `Cop/Cop_5.stl` | Copper | 95,482 | 4.55 |
-| `Cop/Cop_6.stl` | Copper | 44,746 | 2.13 |
+| `Al/Al_2.stl` | Aluminium | 400,022 | 19.07 |
+| `Al/Al_3.stl` | Aluminium | 631,336 | 30.10 |
+| `Al/Al_4.stl` | Aluminium | 222,902 | 10.63 |
+| `Al/Al_5.stl` | Aluminium | 232,514 | 11.09 |
+| `Al/Al_6.stl` | Aluminium | 271,016 | 12.92 |
+| `Bra/Bra_1.stl` | Brass | 1,133,968 | 54.07 |
+| `Bra/Bra_2.stl` | Brass | 1,055,672 | 50.34 |
+| `Bra/Bra_3.stl` | Brass | 721,658 | 34.41 |
+| `Bra/Bra_4.stl` | Brass | 810,250 | 38.64 |
+| `Bra/Bra_5.stl` | Brass | 1,398,440 | 66.68 |
+| `Bra/Bra_6.stl` | Brass | 545,038 | 25.99 |
+| `Cop/Cop_2.stl` | Copper | 551,282 | 26.29 |
+| `Cop/Cop_3.stl` | Copper | 572,528 | 27.30 |
+| `Cop/Cop_4.stl` | Copper | 378,874 | 18.07 |
+| `Cop/Cop_5.stl` | Copper | 764,486 | 36.45 |
+| `Cop/Cop_6.stl` | Copper | 269,722 | 12.86 |
 
 ## Notes
 
-- File names were normalised on upload (`AL_3.stl`, `COP_2.stl` and the long `Al_1_1_scan_watertight_47490tri_mm.stl` became `Al_3.stl`, `Cop_2.stl`, `Al_1.stl`). Mesh data is unchanged.
+- File names are normalised (`Al_1.stl` ... `Cop_6.stl`); the scanner's original export names are not preserved.
 - There is no `Cop_1` — the copper set starts at `Cop_2`.
-- Units are millimetres.
+- `Al_1.stl` is the original 47,490-triangle watertight export and was not re-scanned; every other mesh was re-exported.
+- The first commits in this repository hold an earlier, lower-resolution version of the same 17 samples.
