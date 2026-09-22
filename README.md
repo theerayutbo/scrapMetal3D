@@ -11,7 +11,7 @@ Bra/  Brass samples     (Bra_1, Bra_3 - Bra_10)   9 meshes
 Cop/  Copper samples    (Cop_1 - Cop_10)          10 meshes
 ```
 
-29 meshes, 14,787,004 triangles, 705.1 MiB total. All files are binary STL, units in millimetres.
+29 meshes, 14,316,976 triangles, 682.7 MiB total. All files are binary STL, units in millimetres.
 
 ## Files
 
@@ -42,7 +42,7 @@ Cop/  Copper samples    (Cop_1 - Cop_10)          10 meshes
 | `Cop/Cop_4.stl` | Copper | 378,874 | 18.07 |
 | `Cop/Cop_5.stl` | Copper | 764,486 | 36.45 |
 | `Cop/Cop_6.stl` | Copper | 269,722 | 12.86 |
-| `Cop/Cop_7.stl` | Copper | 629,374 | 30.01 |
+| `Cop/Cop_7.stl` | Copper | 159,346 | 7.60 |
 | `Cop/Cop_8.stl` | Copper | 209,460 | 9.99 |
 | `Cop/Cop_9.stl` | Copper | 396,836 | 18.92 |
 | `Cop/Cop_10.stl` | Copper | 643,494 | 30.68 |
@@ -53,4 +53,4 @@ Cop/  Copper samples    (Cop_1 - Cop_10)          10 meshes
 - One gap in the numbering: there is no `Bra_2`.
 - The mesh first published as `Bra_1` is copper and now lives at `Cop/Cop_1.stl`; the mesh published as `Bra_2` is now `Bra/Bra_1.stl`. Only the labels changed, not the mesh data.
 - `Al_1.stl` is the original 47,490-triangle export and has not been re-scanned.
-- Early commits in this repository hold lower-resolution versions of some samples.
+- Early commits in this repository hold superseded versions of some samples, including a `Cop_7` that was a second scan of the `Cop_10` sample.
