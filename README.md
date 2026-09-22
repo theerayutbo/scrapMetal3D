@@ -6,12 +6,12 @@ All meshes are watertight exports.
 ## Structure
 
 ```
-Al/   Aluminium samples (Al_1 - Al_10)      10 meshes
-Bra/  Brass samples     (Bra_1, Bra_3 - Bra_10)  9 meshes
-Cop/  Copper samples    (Cop_1 - Cop_6, Cop_8 - Cop_10)  9 meshes
+Al/   Aluminium samples (Al_1 - Al_10)                    10 meshes
+Bra/  Brass samples     (Bra_1, Bra_3 - Bra_10)           9 meshes
+Cop/  Copper samples    (Cop_1 - Cop_6, Cop_8 - Cop_10)   9 meshes
 ```
 
-28 meshes, 14,157,630 triangles, 675.1 MiB total. All files are binary STL, units in millimetres.
+28 meshes, 14,643,192 triangles, 698.2 MiB total. All files are binary STL, units in millimetres.
 
 ## Files
 
@@ -23,7 +23,7 @@ Cop/  Copper samples    (Cop_1 - Cop_6, Cop_8 - Cop_10)  9 meshes
 | `Al/Al_4.stl` | Aluminium | 222,902 | 10.63 |
 | `Al/Al_5.stl` | Aluminium | 232,514 | 11.09 |
 | `Al/Al_6.stl` | Aluminium | 271,016 | 12.92 |
-| `Al/Al_7.stl` | Aluminium | 143,812 | 6.86 |
+| `Al/Al_7.stl` | Aluminium | 629,374 | 30.01 |
 | `Al/Al_8.stl` | Aluminium | 196,652 | 9.38 |
 | `Al/Al_9.stl` | Aluminium | 188,300 | 8.98 |
 | `Al/Al_10.stl` | Aluminium | 1,043,594 | 49.76 |
@@ -52,4 +52,4 @@ Cop/  Copper samples    (Cop_1 - Cop_6, Cop_8 - Cop_10)  9 meshes
 - Two gaps in the numbering: there is no `Bra_2` and no `Cop_7`.
 - The mesh first published as `Bra_1` is copper and now lives at `Cop/Cop_1.stl`; the mesh published as `Bra_2` is now `Bra/Bra_1.stl`. The mesh data was not re-exported — only the labels changed.
 - `Al_1.stl` is the original 47,490-triangle export and has not been re-scanned.
-- Early commits in this repository hold a lower-resolution version of the first 17 samples.
+- Early commits in this repository hold lower-resolution versions of some samples.
