@@ -6,12 +6,12 @@ All meshes are watertight exports.
 ## Structure
 
 ```
-Al/   Aluminium samples (Al_1 - Al_10)            10 meshes
-Bra/  Brass samples     (Bra_1, Bra_3 - Bra_10)   9 meshes
-Cop/  Copper samples    (Cop_1 - Cop_10)          10 meshes
+Al/   Aluminium samples   15 meshes   Al_1 - Al_10, Al_19, Al_22, Al_26, Al_28, Al_33
+Bra/  Brass samples        9 meshes   Bra_1, Bra_3 - Bra_10
+Cop/  Copper samples      10 meshes   Cop_1 - Cop_10
 ```
 
-29 meshes, 14,316,976 triangles, 682.7 MiB total. All files are binary STL, units in millimetres.
+34 meshes, 15,580,198 triangles, 742.9 MiB total. All files are binary STL, units in millimetres.
 
 ## Files
 
@@ -27,6 +27,11 @@ Cop/  Copper samples    (Cop_1 - Cop_10)          10 meshes
 | `Al/Al_8.stl` | Aluminium | 196,652 | 9.38 |
 | `Al/Al_9.stl` | Aluminium | 188,300 | 8.98 |
 | `Al/Al_10.stl` | Aluminium | 1,043,594 | 49.76 |
+| `Al/Al_19.stl` | Aluminium | 272,524 | 13.00 |
+| `Al/Al_22.stl` | Aluminium | 290,242 | 13.84 |
+| `Al/Al_26.stl` | Aluminium | 353,994 | 16.88 |
+| `Al/Al_28.stl` | Aluminium | 286,688 | 13.67 |
+| `Al/Al_33.stl` | Aluminium | 59,774 | 2.85 |
 | `Bra/Bra_1.stl` | Brass | 1,055,672 | 50.34 |
 | `Bra/Bra_3.stl` | Brass | 721,658 | 34.41 |
 | `Bra/Bra_4.stl` | Brass | 810,250 | 38.64 |
@@ -49,8 +54,8 @@ Cop/  Copper samples    (Cop_1 - Cop_10)          10 meshes
 
 ## Notes
 
-- File names are normalised (`Al_1.stl` ... `Cop_10.stl`); the scanner's original export names are not preserved.
-- One gap in the numbering: there is no `Bra_2`.
+- File names are normalised; the scanner's original export names are not preserved.
+- Sample numbers are the scanner's own IDs, so the numbering has gaps (no `Bra_2`, and the aluminium set jumps from `Al_10` to `Al_19`).
 - The mesh first published as `Bra_1` is copper and now lives at `Cop/Cop_1.stl`; the mesh published as `Bra_2` is now `Bra/Bra_1.stl`. Only the labels changed, not the mesh data.
 - `Al_1.stl` is the original 47,490-triangle export and has not been re-scanned.
 - Early commits in this repository hold superseded versions of some samples, including a `Cop_7` that was a second scan of the `Cop_10` sample.
