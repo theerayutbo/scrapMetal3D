@@ -7,11 +7,11 @@ All meshes are watertight exports.
 
 ```
 Al/   Aluminium samples   15 meshes   Al_1 - Al_10, Al_19, Al_22, Al_26, Al_28, Al_33
-Bra/  Brass samples        9 meshes   Bra_1, Bra_3 - Bra_10
+Bra/  Brass samples       18 meshes   Bra_1 - Bra_18
 Cop/  Copper samples      10 meshes   Cop_1 - Cop_10
 ```
 
-34 meshes, 15,580,198 triangles, 742.9 MiB total. All files are binary STL, units in millimetres.
+43 meshes, 18,935,172 triangles, 902.9 MiB total. All files are binary STL, units in millimetres.
 
 ## Files
 
@@ -33,6 +33,7 @@ Cop/  Copper samples      10 meshes   Cop_1 - Cop_10
 | `Al/Al_28.stl` | Aluminium | 286,688 | 13.67 |
 | `Al/Al_33.stl` | Aluminium | 59,774 | 2.85 |
 | `Bra/Bra_1.stl` | Brass | 1,055,672 | 50.34 |
+| `Bra/Bra_2.stl` | Brass | 388,658 | 18.53 |
 | `Bra/Bra_3.stl` | Brass | 721,658 | 34.41 |
 | `Bra/Bra_4.stl` | Brass | 810,250 | 38.64 |
 | `Bra/Bra_5.stl` | Brass | 1,398,440 | 66.68 |
@@ -41,6 +42,14 @@ Cop/  Copper samples      10 meshes   Cop_1 - Cop_10
 | `Bra/Bra_8.stl` | Brass | 462,302 | 22.04 |
 | `Bra/Bra_9.stl` | Brass | 300,952 | 14.35 |
 | `Bra/Bra_10.stl` | Brass | 298,700 | 14.24 |
+| `Bra/Bra_11.stl` | Brass | 515,920 | 24.60 |
+| `Bra/Bra_12.stl` | Brass | 309,588 | 14.76 |
+| `Bra/Bra_13.stl` | Brass | 258,182 | 12.31 |
+| `Bra/Bra_14.stl` | Brass | 229,620 | 10.95 |
+| `Bra/Bra_15.stl` | Brass | 287,758 | 13.72 |
+| `Bra/Bra_16.stl` | Brass | 740,216 | 35.30 |
+| `Bra/Bra_17.stl` | Brass | 498,398 | 23.77 |
+| `Bra/Bra_18.stl` | Brass | 126,634 | 6.04 |
 | `Cop/Cop_1.stl` | Copper | 1,133,968 | 54.07 |
 | `Cop/Cop_2.stl` | Copper | 551,282 | 26.29 |
 | `Cop/Cop_3.stl` | Copper | 572,528 | 27.30 |
@@ -55,7 +64,7 @@ Cop/  Copper samples      10 meshes   Cop_1 - Cop_10
 ## Notes
 
 - File names are normalised; the scanner's original export names are not preserved.
-- Sample numbers are the scanner's own IDs, so the numbering has gaps (no `Bra_2`, and the aluminium set jumps from `Al_10` to `Al_19`).
-- The mesh first published as `Bra_1` is copper and now lives at `Cop/Cop_1.stl`; the mesh published as `Bra_2` is now `Bra/Bra_1.stl`. Only the labels changed, not the mesh data.
+- Sample numbers are the scanner's own IDs, so the aluminium numbering has gaps (it jumps from `Al_10` to `Al_19`).
+- The mesh first published as `Bra_1` is copper and now lives at `Cop/Cop_1.stl`; the mesh published as `Bra_2` is now `Bra/Bra_1.stl`. The current `Bra/Bra_2.stl` is a different, later sample.
 - `Al_1.stl` is the original 47,490-triangle export and has not been re-scanned.
 - Early commits in this repository hold superseded versions of some samples, including a `Cop_7` that was a second scan of the `Cop_10` sample.
