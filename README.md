@@ -6,12 +6,12 @@ All meshes are watertight exports.
 ## Structure
 
 ```
-Al/   Aluminium samples   15 meshes   Al_1 - Al_10, Al_19, Al_22, Al_26, Al_28, Al_33
+Al/   Aluminium samples   19 meshes   Al_1 - Al_10, Al_15 - Al_19, Al_22, Al_26, Al_28, Al_33
 Bra/  Brass samples       18 meshes   Bra_1 - Bra_18
-Cop/  Copper samples      11 meshes   Cop_1 - Cop_10, Cop_18
+Cop/  Copper samples      14 meshes   Cop_1 - Cop_10, Cop_15 - Cop_18
 ```
 
-44 meshes, 19,674,776 triangles, 938.2 MiB total. All files are binary STL, units in millimetres.
+51 meshes, 21,735,092 triangles, 1036.4 MiB total. All files are binary STL, units in millimetres.
 
 ## Files
 
@@ -27,6 +27,10 @@ Cop/  Copper samples      11 meshes   Cop_1 - Cop_10, Cop_18
 | `Al/Al_8.stl` | Aluminium | 196,652 | 9.38 |
 | `Al/Al_9.stl` | Aluminium | 188,300 | 8.98 |
 | `Al/Al_10.stl` | Aluminium | 1,043,594 | 49.76 |
+| `Al/Al_15.stl` | Aluminium | 177,548 | 8.47 |
+| `Al/Al_16.stl` | Aluminium | 185,986 | 8.87 |
+| `Al/Al_17.stl` | Aluminium | 198,274 | 9.45 |
+| `Al/Al_18.stl` | Aluminium | 104,484 | 4.98 |
 | `Al/Al_19.stl` | Aluminium | 272,524 | 13.00 |
 | `Al/Al_22.stl` | Aluminium | 290,242 | 13.84 |
 | `Al/Al_26.stl` | Aluminium | 353,994 | 16.88 |
@@ -60,6 +64,9 @@ Cop/  Copper samples      11 meshes   Cop_1 - Cop_10, Cop_18
 | `Cop/Cop_8.stl` | Copper | 209,460 | 9.99 |
 | `Cop/Cop_9.stl` | Copper | 396,836 | 18.92 |
 | `Cop/Cop_10.stl` | Copper | 643,494 | 30.68 |
+| `Cop/Cop_15.stl` | Copper | 525,824 | 25.07 |
+| `Cop/Cop_16.stl` | Copper | 474,688 | 22.63 |
+| `Cop/Cop_17.stl` | Copper | 393,512 | 18.76 |
 | `Cop/Cop_18.stl` | Copper | 739,604 | 35.27 |
 
 ## Notes
